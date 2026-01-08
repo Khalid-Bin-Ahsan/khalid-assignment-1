@@ -28,7 +28,9 @@ transition: 0.3s;
     opacity: 0.6;
 }
 
-
+.color-green{
+    color:  #30B868;
+}
 
 /* body{
     /* background-color: blueviolet; */
@@ -78,8 +80,53 @@ nav button{
     background: url(../assets/hero-bg.png),#FFF8F3;
     background-repeat: no-repeat;
     background-size: 1600px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 674px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+}
+
+#banner .banner-content{
+    /* border: 1px solid black; */
+    margin: 133px 120px 198px 120px;
+
+    /* align-items: center; */
+    max-width: 1360px;
+    width: 71%;
+
+}
+
+
+
+#banner .banner-content .flg{
+margin-top: 0px;
+background-color: #FFF8F3;
+width: 229px;
+border: none;
+border-radius: 1000px;
+gap: 6px;
+color: #30B868;
+font-size: 16;
+font-weight: 500;
+padding: 8px 12px;
+
+
+}
+ #banner .banner-content h1{
+    text-align: center;
+    margin: 51px 195px 40px 195px;
+    /* font-size: 900; */
+    color: #FFF8F3;
+    font-weight: 900;
+
+ }
+ #banner .banner-content p{
+    color: #FFF8F3;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 32px;
+ }
+#banner .banner-content .banner-btn{
+align-items: center;
+margin-left: 375px;
 }

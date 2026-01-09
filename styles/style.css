@@ -98,22 +98,25 @@ nav button{
     /* border: 1px solid red; */
     height: 674px;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
-#banner .banner-content{
+ .banner-content{
     /* border: 1px solid black; */
-    margin: 133px 120px 198px 120px;
+    /* margin: 133px 120px 198px 120px; */
 
     /* align-items: center; */
-    max-width: 1360px;
-    width: 71%;
+    max-width: 800px;
+    color:white;
+    /* width: 71%; */
 
 }
 
 
 
-#banner .banner-content .flg{
+/* #banner .banner-content .flg{
 margin-top: 0px;
 background-color: #FFF8F3;
 width: 229px;
@@ -124,24 +127,47 @@ color: #30B868;
 font-size: 16;
 font-weight: 500;
 padding: 8px 12px;
+align-items: center; */
 
 
 }
- #banner .banner-content h1{
-    text-align: center;
-    margin: 51px 195px 40px 195px;
+ .banner-content h1{
+    /* text-align: center; */
+    /* margin: 51px 195px 40px 195px; */
     /* font-size: 900; */
-    color: #FFF8F3;
-    font-weight: 900;
+    /* color: #FFF8F3; */
+    /* font-weight: 900; */
+    font-size: 56px;
+    margin: 20px 0;
 
  }
- #banner .banner-content p{
-    color: #FFF8F3;
-    text-align: center;
-    margin-top: 15px;
+ .banner-content p{
+    line-height: 24px;
     margin-bottom: 32px;
- }
-#banner .banner-content .banner-btn{
-align-items: center;
-margin-left: 375px;
+    margin-top: 15px;
+
+
+  }
+.banner-content .banner-btn{
+  display: flex;
+justify-content: center;
+/* margin-left: 375px; */
+gap: 16px;
+}
+/* .banner-tbg{
+  background: white;
+  color: #2F855A;
+  padding: 8px 14px;
+  border-radius: 999px;
+ justify-content: center;
+  font-size: 14px;
+  margin-bottom: 16px;
+} */
+
+.badge {
+  background: white;
+  color: #2F855A;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 14px;
 }

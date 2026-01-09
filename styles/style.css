@@ -150,9 +150,8 @@ align-items: center; */
     line-height: 24px;
     margin-bottom: 32px;
     margin-top: 15px;
-
-
   }
+
 .banner-content .banner-btn{
   display: flex;
 justify-content: center;
@@ -283,4 +282,42 @@ gap: 16px;
   display: flex;
   gap: 8px;
 
+}
+
+.think .think-container{
+  /* border: 1px solid red; */
+  margin: 0px 120px 120px 120px;
+  background-color: #6e7e8b1f;
+}
+
+.think-container{
+ justify-content: center;
+}
+
+.think-container .think-txt{
+  padding: 80px 40px 40px 40px;
+  text-align: center;
+}
+.think-txt h1{
+
+  margin-bottom: 16px;
+  color: #001931;
+  font-weight: bolder;
+  font-size: 40px;
+
+}
+.think-txt p{
+
+  /* margin-bottom: 16px; */
+  color: #627382;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 24px;
+
+}
+
+.think-txt button{
+  margin-bottom: 16px;
 }

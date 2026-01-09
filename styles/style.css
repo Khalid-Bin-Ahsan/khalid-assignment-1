@@ -321,3 +321,42 @@ gap: 16px;
 .think-txt button{
   margin-bottom: 16px;
 }
+
+
+.footer-container{
+  background-color: #001931;
+  height: 348px;
+  width: 1600px;
+}
+
+.log-soc{
+  padding: 120px 120px 164px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.soc{
+  color: white;
+}
+
+.footer-bottom {
+  padding: 0 120px 24px;
+  color: #ffffff;
+  text-align: center;
+  border: 1px solid red;
+  background-color: #001931;
+  gap: 80px;
+}
+
+.footer-bottom hr {
+  border: none;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 16px;
+  border: 1px solid red;
+}
+
+
+.footer-bottom p {
+  font-size: 14px;
+  border: 1px solid red;
+}

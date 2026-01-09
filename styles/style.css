@@ -232,3 +232,14 @@ gap: 16px;
 
   color: #627382;
 }
+
+.solution .solution-container{
+  display: flex;
+  margin: 120px;
+  border: 1px solid red;
+}
+
+.solution-container .sol-txt{
+  margin:102px 0px 102px 60px;
+  text-align: left;
+}

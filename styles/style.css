@@ -135,7 +135,7 @@ padding: 8px 12px;
 align-items: center; */
 
 
-}
+
  .banner-content h1{
     /* text-align: center; */
     /* margin: 51px 195px 40px 195px; */
@@ -173,8 +173,11 @@ gap: 16px;
   background: white;
   color: #2F855A;
   padding: 8px 14px;
-  border-radius: 999px;
+  border-radius: 229px;
   font-size: 14px;
+  align-items: center;
+  gap: 8px;
+  max-width: 229px;
 }
 
 #fail .fail-content{
@@ -236,10 +239,48 @@ gap: 16px;
 .solution .solution-container{
   display: flex;
   margin: 120px;
-  border: 1px solid red;
+
 }
 
 .solution-container .sol-txt{
   margin:102px 0px 102px 60px;
   text-align: left;
+}
+
+.sol-txt h4{
+  font-size: 16px;
+  line-height: 20px;
+  color: #469165;
+  font-weight: bold;
+}
+.sol-txt p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+
+}
+.sol-txt h1{
+  font-size: 48px;
+  line-height: auto;
+  color: #001931;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.solution-container .sol-lst{
+  margin-top: 40px;
+
+}
+
+.sol-lst li {
+
+  list-style: none;
+  line-height: 20px;
+  padding-bottom: 16px;
+  color: #001931;
+  font-weight: bold;
+  display: flex;
+  gap: 8px;
+
 }
